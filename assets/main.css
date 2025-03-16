@@ -1,8 +1,4 @@
-	img {
- 		max-width: 100%;
-		}
-
-		@supports not (-webkit-touch-callout: none) {
+	@supports not (-webkit-touch-callout: none) {
 	  /* CSS for other than iOS devices */ 
 		body {
 	        	background-repeat: no-repeat;
@@ -186,7 +182,7 @@ font-family: 'Bakbak One';
 
 .dropdown:hover .dropbtn {background-color: rgba(230, 110, 135, 1);}
 
-/*----*/
+
 
 #wrapper {
 	-webkit-overflow-scrolling: touch;
