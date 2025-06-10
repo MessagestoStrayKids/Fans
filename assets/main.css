@@ -24,7 +24,6 @@
 		}
 		main {
 			width: 100%
-			margin-left: 200px;
 		
 		}
 		}
@@ -97,7 +96,14 @@
 		font-family: 'Bakbak One';
 		font-size: 20px;
 		}
-
+h6 {
+		background: color: black;
+		background-size: cover;
+		-webkit-background-clip: content-box;
+		text-align: left;
+		font-family: 'Bakbak One';
+		font-size: 20px;
+		}
 
 		table {
 		border-collapse: seperate;
