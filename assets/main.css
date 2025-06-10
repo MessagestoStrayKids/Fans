@@ -92,14 +92,7 @@
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		text-align: left;
-		font-family: 'Bakbak One';
-		font-size: 20px;
-		}
-	h6 {
-		background: black;
-		background-size: cover;
-		-webkit-background-clip: content-box;
+		box-shadow: 10px 10px 5px black;
 		text-align: left;
 		font-family: 'Bakbak One';
 		font-size: 20px;
