@@ -13,6 +13,20 @@
 		<link rel="icon" type="image/png" href="https://i.ibb.co/cSDXYNX5/MTSK-LOGO-Mixtape.png" />
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
 		<link rel="stylesheet" href="assets/main.css" />
+
+		<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "2ef5311c-e1de-44ba-9c3c-3b14aa5acfe0",
+      safari_web_id: "web.onesignal.auto.1a6e6435-147d-4598-9ef8-2c64afd14980",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 	</head>
 	<body>
 		
